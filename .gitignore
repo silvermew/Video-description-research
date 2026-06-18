@@ -1,0 +1,39 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model Weights & Checkpoints
+*.pt
+*.pth
+*.bin
+checkpoints/
+checkpoints_caption/
+checkpoints_vqvae/
+MotionBERT/checkpoint/
+
+# Datasets and Processed Data
+data/
+processed_windows/
+results/
+
+# Media Files (Video & Motion)
+*.mp4
+*.avi
+*.mov
+*.trc
+
+# Output Logs and Transcripts
+*.txt
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
