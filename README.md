@@ -41,3 +41,13 @@ The system is built on a robust multi-stage architecture:
 
 ## Note on Repository Content
 Due to size constraints, datasets, trained model weights (`.pt`, `.pth`, `.bin`), large video files, and generated output artifacts are excluded from this repository.
+
+## Acknowledgements & Citations
+
+This project builds upon the incredible work of the open-source computer vision community. We would like to acknowledge and cite the following projects:
+
+*   **MotionBERT**: The core 3D lifting backbone of our motion extraction pipeline.
+    > Zhu, W., Ma, X., Liu, Z., Liu, L., Wu, W., & Wang, Y. (2023). *MotionBERT: A Unified Perspective on Learning Human Motion Representations*. Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV). [GitHub](https://github.com/Walter0807/MotionBERT)
+
+*   **Ultralytics YOLO**: Used for 2D human pose estimation (YOLOv8-Pose) and spatial object context (YOLOv10 / YOLO-World).
+    > Jocher, G., Chaurasia, A., & Qiu, J. (2023). *Ultralytics YOLO*. [GitHub](https://github.com/ultralytics/ultralytics)
